@@ -1,0 +1,16 @@
+<p><?php echo $__env->make('shop::home.category', ['category' => 'shoe'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.category', ['category' => 'fashion'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.advertisements.advertisement-four', ['one' => 'electronica','four' => 'toys'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.category', ['category' => 'electronica'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.category-with-custom-option', ['category' => ['cloths', 'diseno-grafico', 'hogar', 'salud']], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.advertisements.advertisement-three', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.category', ['category' => 'muebles'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.hot-categories', ['category' => ['economia', 'videojuegos', 'muebles', 'cocina']], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.featured-products', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.advertisements.advertisement-two', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p></p>
+<p><?php echo $__env->make('shop::home.new-products', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.product-policy', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.category', ['category' => 'cocina'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.customer-reviews', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
+<p><?php echo $__env->make('shop::home.popular-categories', ['category' => ['hombres', 'mujeres', 'arte', 'hogar']], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?></p>
